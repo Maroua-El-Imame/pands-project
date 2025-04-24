@@ -55,8 +55,9 @@ The topic of this project is : **Analyzing the Iris dataset using Python**.
 In this 2nd phase, I list the steps to follow inn order to achive the project results.
 
 *   Setup : *< still need to extend this setup section <font color=#5D3FD3>**! ! ! !**</font>*   
-In order to successfully run and understand the results of this project, it is essential to first set up the appropriate environment. 
-
+In order to successfully run and understand the results of this project, it is essential to first set up the appropriate environment.   
+<br /> 
+<br /> 
 Anaconda / VScode  
 Cmder  
 Make directories  
@@ -64,12 +65,10 @@ Link local folders to Github repositories
 Synchronize changes   
 Additional files : .gitignore ; README.md   
   
-*   execution plan :
   
-Please see Task list chapter.**(line 24)** (to update accoringly)  
+
 
 ## Executuion & Implementation phase :
-
 <font color=#5D3FD>****1.Research****</font>  
 
 Why IRIS dataset ?  
@@ -81,43 +80,59 @@ Why IRIS dataset ?
 
 *download link*: < https://archive.ics.uci.edu/dataset/53/iris >  
 
-<font color=#5D3FD>**2.Programming**</font>  
+<font color=#5D3FD>**2.Execution plan**</font>  
+
+Please see Task list chapter.**(line 24)** (to update accoringly)  
+
+<font color=#5D3FD>**3.Programming**</font>  
+
 I created 2 files, with the following formats:    
  
   -*py format* : a regular python file that can be executed in a single run.  
     
   -*ipynb format* : interactive PYthon noteBook.  
+
    *' This notebook files can serve as a complete computational record of a session, interleaving executable code with explanatory text, mathematics, and rich representations of resulting objects.'*  
--**Jupyter Team**, *[The Jupyter Notebook, Introduction](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#:~:text=by%20MathJax.-,Notebook%20documents,-%23)*.  
+**Jupyter Team**, *[The Jupyter Notebook, Introduction](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#:~:text=by%20MathJax.-,Notebook%20documents,-%23)*.  
 <br /> 
 
 
-### program progress
+
+#### <u> *program progress*  </u>  
+
+
+
 analysis.**py**    
 
-analysis.**ipynb** 
 
-I implemented the first part, but I still need to finalize the remaining
-File path identified  
-Read the 'iris.data' file in csv format through the file path  
-I need to read in a separate txt file each variable/feature of the iris dtaatset.
+analysis.**ipynb**  
 
+Step 1  
+-
+Download Iris data folder
+From the folder, read the 'iris.data' file in csv format through an identified file path  
+View the dataframe  
 
- <font color=#5D3FD>**3.Data visualization**</font> 
- 
+Step 2  
+-
+Dataset variables are separated into columns  
+Add columns names since the dataframe doesnt include any  
+Group the dataset by columns (variables)  
+Customise txt files names  
+Save a summary of each variable to a single text file   
+
+Step 3
+-
+
 <br /> 
 <br /> 
 <br /> 
 <br /> 
+
+ <font color=#5D3FD>**4.Data visualization**</font> 
 
 ## Closing phase
 Addittional insights    :
-<br /> 
-<br /> 
-<br /> 
-<br /> 
-<br /> 
-<br /> 
 ## Contact
 *Maroua El imame*  
 Author and sole contributor  
