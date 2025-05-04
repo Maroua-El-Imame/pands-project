@@ -97,12 +97,15 @@ See Task list chapter.**(line 24)** (to update accoringly)
 **3.2** <u>Methods used for collection/generation of data:</u>
 
 Download [**Iris data set**](https://archive.ics.uci.edu/dataset/53/iris)  
-This is the process of retrieving the datafrom an online source.  
-The file was downloaded to ensure the data locally available and ready for analysis.   
+the process of retrieving the data from an online source.  
+The file was downloaded to ensure the data is locally available and ready for analysis.   
 
 **3.3** <u>Methods for processing the data:</u>
 
-🔹Program dev progress :
+Program dev progress :
+
+🔹Part 1 :
+
 -Import PYthon packages/libraries for data processing.
 -In this repository, read the 'iris.data' file in csv format through the identified file path  
 -View the dataframe  
@@ -111,10 +114,23 @@ The file was downloaded to ensure the data locally available and ready for analy
 -Group the dataset by columns (variables)  
 -Customise txt files names   
 -Create txt files  
--Save a summary of each variable to a single text file   
+-Save a summary of each variable to a single txt file   
 -Plot a histogram for each data set variable   
 -Save a histogram of each variable to png files    
--Scatter plot of each pair of variables from Iris data set 
+-Out ut a Scatterplot of each pair of variables from Iris data set 
+
+overview :  
+In this part 1, I introduced a few Python libraries during the process to demonstrate how Python can be a powerful and accessible tool for processing, analyzing and visualizing data.  
+I demonstrated how to create and save text files directly to the repository, how to plot histograms and save them as separate '.png' files, then create a figure of each pair of variable within the Iris data set.
+
+
+*🔹Part 2:
+
+In this section, I will show how I can take this further within the notebook itself:  
+
+-Show descriptive statistics directly in the notebook which, cand be hugely helpful when working with smaller datasets.  
+-Combine multiple histograms of each iris data set variables into a single figure to show in notebook for for a simple view.  
+-Exploring additional python libraries like scipy or Seaborn. 
 
  ### <font color=#5D3FD>**4.Data visualization**</font> 
 <u>See generated files in the current repository</u>
@@ -133,7 +149,22 @@ Histogram of sepal width in cm
 Histogram of petal length in cm  
 Histogram of petal width in cm   
 
-**scatter plot of each pair of Iris data set variable**:  
+<u>See cell output in the corrsponding notebook </u>
+
+**Scatter plots of each pair of Iris data set variable**:  
+
+a figure of 6 plots where each scatter plot matches a pair of Iris dataset variables.
+sepal_length--sepal_width   
+sepal_length--petal_length   
+sepal_length--petal_width   
+sepal_width --petal_length   
+sepal_width --petal_width   
+petal_length--petal_width   
+
+<br /> 
+<br /> 
+<br /> 
+<br /> 
 
 ### 🔸Closing phase  
 
@@ -143,12 +174,13 @@ Histogram of petal width in cm
 <br /> 
 <br /> 
 
-*🔹Addittional insights*
 
-<br /> 
-<br /> 
-<br /> 
-<br /> 
+
+
+
+
+
+
 
 
 Contact
