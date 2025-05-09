@@ -1,8 +1,8 @@
-#   <font color=#AA98A9	>**PANDS PROJECT**</font>  
-*Analyzing the Iris dataset using Python*
+#   <font color=#AA98A9	>**PROJECT**</font>  
+### *Programming and Scripting*
+### ***Analyzing the IRIS dataset using Python***  
 <br /> 
-<br /> 
-Project  
+
 Lecturer: Andrew Beatty   
 Programming and Scripting S1-2025  
 Higher Diploma in Science in Computing in Data Analytics  
@@ -32,14 +32,17 @@ This list will be periodically updated upon the progression or completion of eac
 - [x]   analysis.py > outputs a summary of each variable to a single text file
 - [x]   analysis.py > saves a histogram of each variable to png files
 - [x]   analysis.py > outputs a scatter plot of each pair of variables
-- [ ]   Perform any other analysis you think is appropriate.
+- [x]   Perform any other analysis you think is appropriate.
 - [x]   in extra: a Jupyter notebook containing all necessary comments.**•***"This notebook is intended to contain only self-written content, as well as code from external sources to include with proper referencing where appropriate*.
 
 ## 🔹 Task Breakdown
 
 This section breaks this project into smaller manageable steps.  
 It outlines the project in terms of initiation, research, analysis and visualization of the **Iris dataset using Python** .  
-The project management approach I followed is ' the five phases of the project lifecycle '.
+
+This project follows the five key phases of the project lifecycle: Initiation, Planning, Execution, and Closing.  
+
+This approach mirrors the methodology outlined in the Project Management Body of Knowledge (PMBOK® Guide), a globally recognized framework for project management practices.  
 
 ### 🔸Initiation phase :
 ---
@@ -50,7 +53,8 @@ The topic of this project is : **Analyzing the Iris dataset using Python**.
 ### 🔸Planning phase :
 ---
 
-In this 2nd phase I list the steps to follow in order to achive the project results.  
+In this 2nd phase I list the steps to follow in order to achieve the project results.  
+
 In order to successfully run and understand the results of this project, it is essential to identify the instruments to set up the appropriate environment.   
 
 | Python on Windows     |
@@ -69,11 +73,12 @@ In order to successfully run and understand the results of this project, it is e
 located.  
 -Possible to use Cmder for running Python code (CAT). Same as in Vs code, navigate to the 
 directory where the Python file is saved using the cd command.  
--Cmder is mainly for command-line usage, while VS Code is where would most of coding and 
-debugging run.   
-### 🔸Executuion & Implementation phase :
+-Cmder is primarily used for command-line operations, while Visual Studio Code is typically where most coding and debugging takes place.  
+ 
+### 🔸Execution & Implementation phase :
 ---
 ### <font color=#5D3FD>****1.Research****</font>  
+
 Why IRIS dataset ?  
 The Iris data set is often used in data analysis because it’s small, simple, well-organized which makes it an easy dataset to work with.  
 It’s great for learning how to explore data, identify patterns, and practice analysis and visualization.  
@@ -84,7 +89,9 @@ See Task list chapter.**(line 24)** (to update accoringly)
 
 ### <font color=#5D3FD>**3.Programming**</font>  
 
-**3.1** <u>Files</u>
+| **3.1**  Files     |
+|----------|  
+
 
 🔹file with *py format*   
   <small>Regular python file that can be executed in a single run. </small>  
@@ -94,14 +101,16 @@ See Task list chapter.**(line 24)** (to update accoringly)
   *'This notebook files can serve as a complete computational record of a session, interleaving executable code with explanatory text, mathematics, and rich representations of resulting objects.'*  
  *Jupyter Team*, *[The Jupyter Notebook, Introduction](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#:~:text=by%20MathJax.-,Notebook%20documents)*.</small>      
 
-**3.2** <u>Methods used for collection/generation of data:</u>
+
+| **3.2**  Methods used for collecting/generating  data    |
+|----------|  
 
 Download [**Iris data set**](https://archive.ics.uci.edu/dataset/53/iris)  
 the process of retrieving the data from an online source.  
 The file was downloaded to ensure the data is locally available and ready for analysis.   
 
-**3.3** <u>Methods for processing the data:</u>
-
+| **3.*3*  Methods for processing the data    |
+|----------|  
 Program dev progress :
 
 🔹Part 1 :
@@ -111,36 +120,38 @@ Program dev progress :
 -View the dataframe  
 -Dataset variables are separated into columns  
 -Add columns names since the dataframe doesnt include any  
--Group the dataset by columns (variables)  
+-Group the dataset by columns which corresponds to Iris data set features (variables)  
 -Customise txt files names   
 -Create txt files  
 -Save a summary of each variable to a single txt file   
 -Plot a histogram for each data set variable   
 -Save a histogram of each variable to png files    
--Out ut a Scatterplot of each pair of variables from Iris data set 
+-Output a Scatterplot of each pair of variables from Iris data set 
 
 overview :  
-In this part 1, I introduced a few Python libraries during the process to demonstrate how Python can be a powerful and accessible tool for processing, analyzing and visualizing data.  
-I demonstrated how to create and save text files directly to the repository, how to plot histograms and save them as separate '.png' files, then create a figure of each pair of variable within the Iris data set.
+In this part 1, I introduced a few Python libraries during the process to demonstrate how Python can be a powerful and accessible tool for processing, analyzing and visualizing data.   
+I demonstrated how to create and save text files directly to the repository, how to plot histograms and save them as separate '.png' files, then create a figure of each pair of variable within the Iris data set.  
 
 
-*🔹Part 2:
 
-In this section, I will show how I can take this further within the notebook itself:  
+🔹Part 2:
 
--Show descriptive statistics directly in the notebook which, cand be hugely helpful when working with smaller datasets.  
--Combine multiple histograms of each iris data set variables into a single figure to show in notebook for for a simple view.  
--Exploring additional python libraries like scipy or Seaborn. 
+In this section, I will show how I can take this further within the notebook itself, by :    
+-Exploring additional python libraries.  
+-using Seaborn, Create 1 boxplot figure combining the 3 iris species with all their 4 features.  
+
 
  ### <font color=#5D3FD>**4.Data visualization**</font> 
-<u>See generated files in the current repository</u>
+See generated files in the current repository  
+
+---
 
 **Txt file of each variable summary  from Iris data set**:
 
-txt summary of sepal length in cm  
-txt summary of sepal width in cm  
-txt summary of petal length in cm  
-txt summary of petal width in cm  
+summary of sepal length in cm  
+summary of sepal width in cm  
+summary of petal length in cm  
+summary of petal width in cm  
 
 **Histogram of each variable from Iris dataset**:  
 
@@ -149,11 +160,14 @@ Histogram of sepal width in cm
 Histogram of petal length in cm  
 Histogram of petal width in cm   
 
-<u>See cell output in the corrsponding notebook </u>
+See cell output in the corresponding notebook  
 
-**Scatter plots of each pair of Iris data set variable**:  
+---
 
-a figure of 6 plots where each scatter plot matches a pair of Iris dataset variables.
+**Scatter plots**:   
+
+a figure of 6 plots where each scatter plot matches a pair of Iris dataset variables.  
+
 sepal_length--sepal_width   
 sepal_length--petal_length   
 sepal_length--petal_width   
@@ -161,31 +175,46 @@ sepal_width --petal_length
 sepal_width --petal_width   
 petal_length--petal_width   
 
-<br /> 
-<br /> 
-<br /> 
-<br /> 
+**Pie plot** :  
+
+**Boxplots** :  
+
+a figure of 1 boxplot, showing variables distribution by IRIS species 
+
+**Heatmaps** :
+
+3 species heatmaps showing correlation between iris variable
+
+**Pair plot** :
 
 ### 🔸Closing phase  
 
 ---
+
+* Conclusions, Challenges, and Key Insight:
 <br /> 
+
 <br /> 
+
+
+-Summary of Insights: insights gathered during the project  
 <br /> 
+
+
+-Limitations: Challenges  
 <br /> 
 
 
+-Areas for Improvement: What to do differently  
 
 
+<br /> 
 
 
+-Suggestions for Further Exploration: Ideas  
+<br /> 
 
 
-
-
-Contact
-*Maroua El imame*  
-Author and sole contributor  
-<G00472980@atu.ie>
-
+-Key Takeaways:  My learnign experience  
+<br /> 
 
