@@ -1,6 +1,5 @@
-#   <font color=#AA98A9	>**PROJECT**</font>  
+#   <font color=#AA98A9	>**PROJECT - **Analyzing the Iris dataset using Python****</font>  
 ### *Programming and Scripting*
-### ***Analyzing the IRIS dataset using Python***  
 <br /> 
 
 Lecturer: Andrew Beatty   
@@ -17,8 +16,6 @@ Author : Maroua EL imame
 Analyzing the Iris dataset using Python.  
 This project concerns the well-known Fisher’s Iris data set.  
 This is one of the earliest datasets used in the literature on classification methods and widely used in statistics and machine learning.  
-The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.
-
 
 ## 🔹Task List  
 
@@ -41,8 +38,9 @@ This section breaks this project into smaller manageable steps.
 It outlines the project in terms of initiation, research, analysis and visualization of the **Iris dataset using Python** .  
 
 This project follows the five key phases of the project lifecycle: Initiation, Planning, Execution, and Closing.  
-
 This approach mirrors the methodology outlined in the Project Management Body of Knowledge (PMBOK® Guide), a globally recognized framework for project management practices.  
+
+
 
 ### 🔸Initiation phase :
 ---
@@ -85,7 +83,7 @@ It’s great for learning how to explore data, identify patterns, and practice a
 
 ### <font color=#5D3FD>**2.Execution plan**</font>  
 
-See Task list chapter.**(line 24)** (to update accoringly)   
+See Task list  
 
 ### <font color=#5D3FD>**3.Programming**</font>  
 
@@ -177,6 +175,8 @@ petal_length--petal_width
 
 **Pie plot** :  
 
+1 pei chart
+
 **Boxplots** :  
 
 a figure of 1 boxplot, showing variables distribution by IRIS species 
@@ -187,34 +187,37 @@ a figure of 1 boxplot, showing variables distribution by IRIS species
 
 **Pair plot** :
 
+scatter plots & KDE
+
 ### 🔸Closing phase  
 
 ---
+* Summary of findings  
 
-* Conclusions, Challenges, and Key Insight:
+
+* Conclusion and Reflections  
+
+This project provided a practical introduction to using Python for data analysis. The Iris dataset served as an excellent example, allowing me to apply Python methods for data reading, preprocessing, and visualization.  
+
+Iris data set exploration brought into perspective how much insight can be gained from a small dataset, which demonstrates the practicality of using Python in data analysis and visualization.  
+
+One of the main lessons I learned during this project was the importance of consistent referencing and accurate documentation.  
+Adding explanations and comments alongside my code in notebook was useful to keep track of my code progress, to continiously understand the code, the ability to reproduce the code and most of all, it helped in filtering the best resources of documentation.  
+
+This project is only a starting point for exploring data analysis and visualization. There's certainly much more to learn, but I am confident and encouraged to develop additional coding and alaysis skills. 
+
+The IRIS data set, was indeed a story waiting to be told with the right tools and mindset.
+
+dataset, no matter how small, carries a story waiting to be 
+
+ More importantly, this whole process of data exploration and visualization reminded me that every dataset holds a story waiting to be told. And, who doesn’t like a story with a captivating plot?
+ 
+
+
+<br /> 
+<br /> 
+<br /> 
+<br /> 
 <br /> 
 
-<br /> 
-
-
--Summary of Insights: insights gathered during the project  
-<br /> 
-
-
--Limitations: Challenges  
-<br /> 
-
-
--Areas for Improvement: What to do differently  
-
-
-<br /> 
-
-
--Suggestions for Further Exploration: Ideas  
-<br /> 
-
-
--Key Takeaways:  My learnign experience  
-<br /> 
 
