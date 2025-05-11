@@ -19,8 +19,9 @@ This is one of the earliest datasets used in the literature on classification me
 
 ## 🔹Task List  
 
-Based on the project instructions, I enumerate the task list as follows :  
-This list will be periodically updated upon the progression or completion of each step.
+Based on the project instructions, I enumerate the task list as follows :   
+
+*This list was gradualy updated upon the progression or completion of each step*.
 
 
 - [x]   Research the dataset online and write a summary about it in README. file.
@@ -104,40 +105,31 @@ See Task list
 |----------|  
 
 Download [**Iris data set**](https://archive.ics.uci.edu/dataset/53/iris)  
-the process of retrieving the data from an online source.  
+The process of retrieving the data from an online source.  
 The file was downloaded to ensure the data is locally available and ready for analysis.   
 
-| **3.*3*  Methods for processing the data    |
+| **3.3**  Methods for processing the data    |
 |----------|  
-Program dev progress :
+*Programming progress*
 
 🔹Part 1 :
 
--Import PYthon packages/libraries for data processing.
--In this repository, read the 'iris.data' file in csv format through the identified file path  
--View the dataframe  
--Dataset variables are separated into columns  
--Add columns names since the dataframe doesnt include any  
--Group the dataset by columns which corresponds to Iris data set features (variables)  
--Customise txt files names   
--Create txt files  
--Save a summary of each variable to a single txt file   
--Plot a histogram for each data set variable   
--Save a histogram of each variable to png files    
--Output a Scatterplot of each pair of variables from Iris data set 
-
-overview :  
-In this part 1, I introduced a few Python libraries during the process to demonstrate how Python can be a powerful and accessible tool for processing, analyzing and visualizing data.   
-I demonstrated how to create and save text files directly to the repository, how to plot histograms and save them as separate '.png' files, then create a figure of each pair of variable within the Iris data set.  
-
+-Import packages/libraries for data processing. 
+-Read the 'iris.data' file in csv format through the identified file path.   
+-View the dataframe ( columns and rows ).  
+-Add columns names.  
+-Group the dataset.  
+-Create txt files, add txt files titles then save a summary of each variable to a single txt file.   
+-Plot a histogram for each data set variable, then save them into png files.     
+-Output a Scatterplot of each pair of variables from Iris data set.   
 
 
 🔹Part 2:
 
-In this section, I will show how I can take this further within the notebook itself, by :    
--Exploring additional python libraries.  
--using Seaborn, Create 1 boxplot figure combining the 3 iris species with all their 4 features.  
+In this 2ndsection, I demonstrated additional methods to:
 
+-Explore additional python libraries.  
+-Explore a variety of visualization tools, the main focus was on univariate, bivariate, and multivariate plots. This added an all-around perspective to data analysis.  
 
  ### <font color=#5D3FD>**4.Data visualization**</font> 
 See generated files in the current repository  
@@ -158,7 +150,7 @@ Histogram of sepal width in cm
 Histogram of petal length in cm  
 Histogram of petal width in cm   
 
-See cell output in the corresponding notebook  
+See cells outputs in the corresponding notebook  
 
 ---
 
@@ -175,7 +167,7 @@ petal_length--petal_width
 
 **Pie plot** :  
 
-1 pei chart
+1 pie chart
 
 **Boxplots** :  
 
@@ -183,19 +175,33 @@ a figure of 1 boxplot, showing variables distribution by IRIS species
 
 **Heatmaps** :
 
-3 species heatmaps showing correlation between iris variable
+3 species heatmaps showing correlation between Iris data set variabls
 
 **Pair plot** :
 
-scatter plots & KDE
+1 pairplot of (scatter plots & KDE )
 
 ### 🔸Closing phase  
 
 ---
-* Summary of findings  
 
+* Summary of findings  
+<br /> 
+
+
+In order to better understand the dataset and explore the relationships between Iris dataset species and features, I applied various analysis techniques to each element.  
+
+This process ultimately led to a significant conclusion regarding the correlation between petal length and petal width.  
+To ensure a full understanding of the Iris dataset, different visualizations were need to analyze the features from multiple perspectives, this, allowed me to demonstrate then determine which visualization provided the better insights.   
+
+Although the process was time-consuming, it was necessary to gain an accurate and detailed understanding of the data.  
+
+
+<br /> 
 
 * Conclusion and Reflections  
+<br /> 
+
 
 This project provided a practical introduction to using Python for data analysis. The Iris dataset served as an excellent example, allowing me to apply Python methods for data reading, preprocessing, and visualization.  
 
@@ -206,18 +212,46 @@ Adding explanations and comments alongside my code in notebook was useful to kee
 
 This project is only a starting point for exploring data analysis and visualization. There's certainly much more to learn, but I am confident and encouraged to develop additional coding and alaysis skills. 
 
-The IRIS data set, was indeed a story waiting to be told with the right tools and mindset.
-
-dataset, no matter how small, carries a story waiting to be 
-
  More importantly, this whole process of data exploration and visualization reminded me that every dataset holds a story waiting to be told. And, who doesn’t like a story with a captivating plot?
  
 
 
 <br /> 
 <br /> 
-<br /> 
-<br /> 
-<br /> 
+
+
+## References  
+
+Module lectures :   
+Programming and scripting module at ATU.     
+
+Research :  
+The following websites were primarily used to explore resources in order to complete the assignment 
+tasks.  
+Relevant references are cited and included as comments in sections of code where they apply.
+
+[Datacamp](https://app.datacamp.com/)  
+[GeeksforGeeks](https://www.geeksforgeeks.org/)  
+[Matplotlib](https://matplotlib.org/stable/api//)  
+[Numpy](https://numpy.org/doc/stable/user/index.html/)  
+[Pandas](https://pandas.pydata.org/docs/reference/index.html/)  
+[Python documentation](https://docs.python.org/3/)  
+[RealPython](https://realpython.com/)  
+[Stackoverflow](https://stackoverflow.com/questions)  
+[Scikit learn](https://scikit-learn.org/stable/index.html/)  
+[Scipy](https://docs.scipy.org/doc/scipy//)  
+[Seaborn](https://seaborn.pydata.org/api.html/)  
+[w3schools](https://www.w3schools.com/)  
+[Wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination/)  
+[Microsoft Co-pilot](https://copilot.microsoft.com/)
+
+## Contact
+
+*Maroua El imame*  
+Author and *sole* contributor  
+<G00472980@atu.ie>
+
+
+
 
 
