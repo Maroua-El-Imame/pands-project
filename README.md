@@ -13,9 +13,14 @@ Author : Maroua EL imame
 
   
 ## 🔹Problem Statement    
-Analyzing the Iris dataset using Python.  
+
 This project concerns the well-known Fisher’s Iris data set.  
-This is one of the earliest datasets used in the literature on classification methods and widely used in statistics and machine learning.  
+This is one of the earliest datasets used in the literature on classification methods and widely used in statistics and machine learning. 
+
+In this project, I aim to highlight how Python serves as a powerful tool that enables users to source data effectively, clean it, perform mathematical and statistical computations, conduct analysis, explore patterns and create meaningful visualizations.  
+
+Its simple structure and the variety of its built-in packages make it an invaluable tool for learners and professionals working with data.
+
 
 ## 🔹Task List  
 
@@ -110,6 +115,7 @@ The file was downloaded to ensure the data is locally available and ready for an
 
 | **3.3**  Methods for processing the data    |
 |----------|  
+
 *Programming progress*
 
 🔹Part 1 :
@@ -192,9 +198,9 @@ a figure of 1 boxplot, showing variables distribution by IRIS species
 In order to better understand the dataset and explore the relationships between Iris dataset species and features, I applied various analysis techniques to each element.  
 
 This process ultimately led to a significant conclusion regarding the correlation between petal length and petal width.  
-To ensure a full understanding of the Iris dataset, different visualizations were need to analyze the features from multiple perspectives, this, allowed me to demonstrate then determine which visualization provided the better insights.   
+To ensure a full understanding of the Iris dataset, different visualizations were needed to analyze the features from multiple perspectives, this, allowed me to demonstrate then determine which visualization provided the better insights.   
 
-Although the process was time-consuming, it was necessary to gain an accurate and detailed understanding of the data.  
+Although the process was time-consuming, it was necessary to gain an accurate and detailed understanding of the data and  allowed me to explore some of the endless techniques that Python can offer. 
 
 
 <br /> 
@@ -226,7 +232,7 @@ Module lectures :
 Programming and scripting module at ATU.     
 
 Research :  
-The following websites were primarily used to explore resources in order to complete the assignment 
+The following websites were primarily used to explore resources in order to complete the project 
 tasks.  
 Relevant references are cited and included as comments in sections of code where they apply.
 
