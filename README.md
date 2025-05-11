@@ -120,7 +120,7 @@ The file was downloaded to ensure the data is locally available and ready for an
 
 🔹Part 1 :
 
--Import packages/libraries for data processing. 
+-Import packages/libraries for data processing.  
 -Read the 'iris.data' file in csv format through the identified file path.   
 -View the dataframe ( columns and rows ).  
 -Add columns names.  
@@ -138,29 +138,26 @@ In this 2ndsection, I demonstrated additional methods to:
 -Explore a variety of visualization tools, the main focus was on univariate, bivariate, and multivariate plots. This added an all-around perspective to data analysis.  
 
  ### <font color=#5D3FD>**4.Data visualization**</font> 
-See generated files in the current repository  
+
+See generated files in the current repository or cells output in the corresponding notebook  
 
 ---
 
-**Txt file of each variable summary  from Iris data set**:
+**Txt file of each variable summary  from Iris data set**  
 
 summary of sepal length in cm  
 summary of sepal width in cm  
 summary of petal length in cm  
 summary of petal width in cm  
 
-**Histogram of each variable from Iris dataset**:  
+**Histogram of each variable from Iris dataset**  
 
 Histogram of sepal length  
 Histogram of sepal width in cm  
 Histogram of petal length in cm  
 Histogram of petal width in cm   
 
-See cells outputs in the corresponding notebook  
-
----
-
-**Scatter plots**:   
+**Scatter plots**
 
 a figure of 6 plots where each scatter plot matches a pair of Iris dataset variables.  
 
@@ -171,21 +168,21 @@ sepal_width --petal_length
 sepal_width --petal_width   
 petal_length--petal_width   
 
-**Pie plot** :  
+**Pie plot**  
 
 1 pie chart
 
-**Boxplots** :  
+**Boxplots** 
 
 a figure of 1 boxplot, showing variables distribution by IRIS species 
 
-**Heatmaps** :
+**Heatmaps**  
 
-3 species heatmaps showing correlation between Iris data set variabls
+3 correlation heatmaps correpsonding to each Iris species features. 
 
-**Pair plot** :
+**Pair plot**  
 
-1 pairplot of (scatter plots & KDE )
+1 pairplot of (a mix of scatter plots & KDE )
 
 ### 🔸Closing phase  
 
@@ -221,10 +218,8 @@ This project is only a starting point for exploring data analysis and visualizat
  More importantly, this whole process of data exploration and visualization reminded me that every dataset holds a story waiting to be told. And, who doesn’t like a story with a captivating plot?
  
 
-
 <br /> 
 <br /> 
-
 
 ## References  
 
