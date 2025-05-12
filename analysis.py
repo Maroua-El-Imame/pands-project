@@ -16,13 +16,13 @@
 
 
 # Import Python packages:
-import csv
-# for dataframes 
 import pandas as pd
 # machine Learning Library that contains datasets.
 import sklearn as skl 
 # plotting library
 import matplotlib.pyplot as plt
+# patch package in matplotlib to add objects to the plots
+from matplotlib.patches import Patch
 # python library for creating iterators to produce complex iterators.  
 from itertools import combinations
 # Data visualization library
@@ -65,6 +65,10 @@ for column in iris_data.columns[:-1]:
     # open each file created previosuly, and overwrite the summary 
     with open(file_name, "w") as f:
         f.write(summary.to_string())
+
+
+
+
 
 # Create then save a histogram of each variable to png files  
 
@@ -123,6 +127,11 @@ plt.title("Petal Width Distribution")
 # save
 plt.savefig("histogram of petal width.png")
 plt.clf()
+
+
+
+
+
 
 # Output a scatter plot of each pair of variables  
 
@@ -191,10 +200,24 @@ axs[1, 2].grid(color='blue', linestyle='--', linewidth=0.05)
 axs[1, 2].set_xlabel('Petal Length')
 axs[1, 2].set_ylabel('Petal Width')
 
-# save fig 
-plt.savefig("scatter plots of each pair of Iris variables")
+# create legend handles
+# reference : https://matplotlib.org/stable/gallery/text_labels_and_annotations/custom_legends.html
+legend_elements = [Patch(facecolor=color, label=label) for label, color in species_colors.items()]
 
-# Create a pie chart of Iris species samples count 
+# make room so the legend doesn't overlap.
+plt.tight_layout(rect=[0, 0, 0.9, 1])
+
+# add legend to the right of the figure and centers it vertically 
+fig.legend(handles=legend_elements, title='Iris Species', loc='center left', bbox_to_anchor=(1.01, 0.5))
+
+# save fig 
+plt.savefig("scatter plots of each pair of Iris variables", bbox_inches='tight', dpi=300)
+
+
+
+
+
+# create a pie chart of Iris species samples count 
 
 # load the Iris dataset , Seaborn.
 iris = sns.load_dataset('iris')
@@ -211,6 +234,10 @@ plt.title('Distribution of Iris Species')
 
 # save fig
 plt.savefig("pie plot of iris species count")
+
+
+
+
 
 # Create boxplots  
 
@@ -243,6 +270,10 @@ plt.legend(title='IRIS species')
 # save
 plt.savefig("box plots of Iris species variables")
 
+
+
+
+
 # create Heatmaps
 
 # identify the list of species ['setosa', 'versicolor', 'virginica']
@@ -267,8 +298,8 @@ for sp in species_list:
     filename = f'heatmap correlation of {sp.lower()}.png'
     plt.savefig(filename, dpi=300)
 
-    # close plot to avoid overlap
-    plt.close()
+# plot to avoid overlap
+plt.clf()
 
 # create pairplot
 # load Iris dataset using seaborn.load_dataset() method, which allows users to quickly load sample datasets provided by Seaborn. 
