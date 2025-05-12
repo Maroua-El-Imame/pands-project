@@ -213,7 +213,7 @@ Iris data set exploration brought into perspective how much insight can be gaine
 One of the main lessons I learned during this project was the importance of consistent referencing and accurate documentation.  
 Adding explanations and comments alongside my code in notebook was useful to keep track of my code progress, to continiously understand the code, the ability to reproduce the code and most of all, it helped in filtering the best resources of documentation.  
 
-This project is only a starting point for exploring data analysis and visualization. There's certainly much more to learn, but I am confident and encouraged to develop additional coding and alaysis skills. 
+This project is only a starting point for exploring data analysis and visualization. There's certainly much more to learn, but I am confident and encouraged to develop additional coding and analysis skills. 
 
  More importantly, this whole process of data exploration and visualization reminded me that every dataset holds a story waiting to be told. And, who doesn’t like a story with a captivating plot?
  
